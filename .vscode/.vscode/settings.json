@@ -1,0 +1,23 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[helm]": {
+    "editor.formatOnSave": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "never"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "tailwindCSS.experimental.classRegex": [
+    "clsx\\(([^)]*)\\)",
+    "twMerge\\(([^)]*)\\)",
+    "[\\S]*[cC]lassName*\\: '([^']*)'"
+  ],
+  "tailwindCSS.classAttributes": ["class", "className", "[\\S]*[cC]lassName*", "[\\S]*[sS]tyle*"],
+  "eslint.runtime": "node",
+  "i18n-ally.localesPaths": ["src/messages"],
+  "i18n-ally.keystyle": "nested"
+}
